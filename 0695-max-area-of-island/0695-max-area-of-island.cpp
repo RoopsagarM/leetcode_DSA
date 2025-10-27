@@ -1,26 +1,27 @@
 class Solution {
 public:
-    void dfs(int i, int j, vector<vector<int>>& grid, int& count){
-        if(i < 0 || j < 0 || i >= grid.size() || j >= grid[0].size()) return;
-        if(grid[i][j] == 0) return;
-        grid[i][j] = 0;
+    void helper(int row, int col, vector<vector<int>>& grid, int& count){
+        if(row<0 || row>=grid.size() || col<0 || col>=grid[0].size()) return;
+        if(grid[row][col] == 0) return;
+        grid[row][col] = 0;
         count++;
-        dfs(i-1, j, grid, count);
-        dfs(i+1, j, grid, count);
-        dfs(i, j-1, grid, count);
-        dfs(i, j+1, grid, count);
+
+        helper(row-1, col, grid, count);
+        helper(row, col+1, grid, count);
+        helper(row+1, col, grid, count);
+        helper(row, col-1, grid, count);
     }
     int maxAreaOfIsland(vector<vector<int>>& grid) {
-        int maxCount = 0;
+        int count = 0, maxLen = 0;
         for(int i = 0; i < grid.size(); i++){
             for(int j = 0; j < grid[0].size(); j++){
-                if(grid[i][j]){
+                if(grid[i][j] == 1){
                     int count = 0;
-                    dfs(i, j, grid, count);
-                    maxCount = max(count, maxCount);
+                    helper(i, j, grid, count);
+                    maxLen = max(maxLen, count);
                 }
             }
         }
-        return maxCount;
+        return maxLen;
     }
 };
