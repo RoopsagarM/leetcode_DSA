@@ -29,6 +29,7 @@ public:
                 if(indegree[it] == 0) q.push(it);
             }
         }
-        return topo;
+        if(topo.size() == n) return topo;
+        return {};
     }
 };
