@@ -24,11 +24,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0056-merge-intervals) |
 | [0198-house-robber](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0198-house-robber) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0055-jump-game) |
 | [0198-house-robber](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0198-house-robber) |
 | [0647-palindromic-substrings](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0647-palindromic-substrings) |
 ## Two Pointers
@@ -43,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0056-merge-intervals) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
