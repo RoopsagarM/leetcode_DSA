@@ -29,4 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0198-house-robber) |
+| [0647-palindromic-substrings](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0647-palindromic-substrings) |
+## Two Pointers
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0647-palindromic-substrings) |
+## String
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0647-palindromic-substrings) |
 <!---LeetCode Topics End-->
