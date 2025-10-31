@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0056-merge-intervals) |
 | [0198-house-robber](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0198-house-robber) |
 ## Dynamic Programming
 |  |
@@ -38,4 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0647-palindromic-substrings](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0647-palindromic-substrings) |
+## Sorting
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/RoopsagarM/leetcode_DSA/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
